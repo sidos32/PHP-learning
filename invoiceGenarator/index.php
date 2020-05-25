@@ -26,6 +26,8 @@ $connection->connect();
 
 //BILL INFO
 $invoiceSelect = 'SELECT * FROM  `invoice_Information`';
+
+
 $result = mysqli_query($connection->myConn, $invoiceSelect);
 $invInfo = mysqli_fetch_assoc($result);;
 //BILL TO

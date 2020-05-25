@@ -67,6 +67,7 @@ class Invoicr{
 	/* [TEMPLATE] */
 	private $path_template = __DIR__ . DIRECTORY_SEPARATOR . "templates" . DIRECTORY_SEPARATOR ;
 	private $template = "simple";
+
 	function template($template="simple"){
 	// template() ; use the specified template
 
