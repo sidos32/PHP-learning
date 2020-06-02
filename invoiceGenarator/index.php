@@ -84,7 +84,7 @@ if (isset($_POST['test'])) {
     $invoice->outputPDF(2, "invoice.pdf");
 };
 
-?>
+?
 <form  method="post" >
     <input name="test" type="submit" value="Изтегли">
 </form>
